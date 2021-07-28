@@ -1,9 +1,12 @@
-import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
+import './assets/styles/custom.scss';
 import './App.css';
+
+import Routes from "./Routes";
 
 function App() {
   return (
-      <h1>Top Cars App</h1>
+      <Routes/>
   );
 }
 
